@@ -5,9 +5,9 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/hyperoslo/Pages"
   s.license          = 'MIT'
   s.author           = { "Hyper" => "ios@hyper.no" }
-  s.source           = { :git => "https://github.com/hyperoslo/Pages.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/arianais/Pages.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/hyperoslo'
-  s.platform     = :ios, '12.0'
+  s.platform     = :ios, '11.0'
   s.requires_arc = true
   s.source_files = 'Source/**/*'
   s.frameworks = 'UIKit'
